@@ -40,14 +40,14 @@ public class AIQuickFollow : MonoBehaviour
             if (Target && MyNavMeshAgent.enabled)
             {
                 //Debug.Log("SETTING DESTINATION POINT");
-                //Debug.LogError("Set destination point");
+                Debug.LogError("Set destination point");
                 //Debug.LogError("Destination set to " + Target.transform.position);
 
                     MyNavMeshAgent.SetDestination(Target.transform.position);
 
                     
             }
-            yield return new WaitForSeconds(0.1250f);
+            yield return new WaitForSeconds(0.1250f +Random.Range(0,0.125f));
         }
     }
 
