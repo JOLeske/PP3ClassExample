@@ -43,11 +43,12 @@ public class AIQuickFollow : MonoBehaviour
 
                 //Debug.LogError("SETTING DESTINATION POINT: " + Target.transform.position);
 
-                MyNavMeshAgent.SetDestination(Target.transform.position);
+
+                    MyNavMeshAgent.SetDestination(Target.transform.position);
 
                     
             }
-            yield return null;
+            yield return new WaitForSeconds(0.1250f + Random.Range(0, 0.125f));
 
             // new WaitForSeconds(0.1250f);
 
