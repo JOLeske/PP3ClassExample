@@ -76,14 +76,4 @@ public class AIQuickFollow : MonoBehaviour
 
         }
     }
-
-    IEnumerator EnemyBounce()
-    {
-        while (true)
-        {
-            this.gameObject.transform.position += new Vector3(0, 0.25f, 0);
-            Physics.SyncTransforms();
-            yield return new WaitForSeconds(3.0f);
-        }
-    }
 }
