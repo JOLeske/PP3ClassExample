@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.PackageManager.Requests;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -20,23 +19,24 @@ public class AIQuickFollow : MonoBehaviour
         //////////////
 
         // Find Via Name
-        Target = GameObject.Find("Follow Point");
+        //Target = GameObject.Find("Follow Point");
 
         // Find Via Tag
         //Target = GameObject.FindWithTag("Player");
 
         // Find Via GM
-        //Target = gamemanager.instance.Target;
+        Target = gamemanager.instance.Target;
 
         // Allow Paths in the background
-        MyNavMeshAgent.SetDestination(Target.transform.position);
+        //MyNavMeshAgent.SetDestination(Target.transform.position);
+        //Debug.Log("DEBUG LOG: SETTING DESTINATION POINT: " + Target.transform.position);
 
         // Force paths on spawn
-        //NavMeshPath path = new NavMeshPath();
-        //if (NavMesh.CalculatePath(transform.position, Target.transform.position, NavMesh.AllAreas, path))
-        //{
-        //    MyNavMeshAgent.SetPath(path);
-        //}
+        NavMeshPath path = new NavMeshPath();
+        if (NavMesh.CalculatePath(transform.position, Target.transform.position, NavMesh.AllAreas, path))
+        {
+            MyNavMeshAgent.SetPath(path);
+        }
 
 
         // Start coroutine to update destination point should it move.
@@ -56,7 +56,7 @@ public class AIQuickFollow : MonoBehaviour
         {
             if (Target && MyNavMeshAgent.enabled)
             {
-                //Debug.LogError("SETTING DESTINATION POINT: " + Target.transform.position);
+                Debug.LogError("DEBUG LOG ERROR: SETTING DESTINATION POINT: " + Target.transform.position);
 
                 MyNavMeshAgent.SetDestination(Target.transform.position);
             }
@@ -66,13 +66,13 @@ public class AIQuickFollow : MonoBehaviour
             ///////////////////////////
 
             //Reset target location every frame
-            yield return null;
+            //yield return null;
 
             //Reset Target location every 1/8 of a second
             //yield return new WaitForSeconds(0.1250f);
             
             //Reset target within a range of every 1/8 - 1/4 of a second
-            //yield return new WaitForSeconds(0.1250f + Random.Range(0, 0.125f)); ;
+            yield return new WaitForSeconds(0.1250f + Random.Range(0, 0.125f)); ;
 
         }
     }

@@ -12,6 +12,9 @@ public class MonsterGunts : MonoBehaviour
     [SerializeField]
     AudioSource MosterSFX = null;
 
+    [SerializeField]
+    AudioClip _AudioClip = null;
+
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "Player")
@@ -22,6 +25,8 @@ public class MonsterGunts : MonoBehaviour
     {
         MosterSFX.resource = Grunts[Random.Range(0, Grunts.Length)];
         MosterSFX.Play();
+
+        //MosterSFX.PlayOneShot(_AudioClip);
     }
 
 }
