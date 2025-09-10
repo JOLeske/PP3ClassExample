@@ -1,35 +1,52 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.PackageManager.Requests;
 using UnityEngine;
 using UnityEngine.AI;
 
 public class AIQuickFollow : MonoBehaviour
 {
     [SerializeField] GameObject Target;
-    [SerializeField] GameObject Weapon;
     [SerializeField] NavMeshAgent MyNavMeshAgent;
-    [SerializeField] GameObject RetreatePoint;
 
-    [SerializeField] int health;
 
     // Start is called before the first frame update
     void Start()
     {
-        health = 300;
         MyNavMeshAgent = GetComponent<NavMeshAgent>();
+
+        //////////////
+        // Get Target
+        //////////////
+
+        // Find Via Name
+        Target = GameObject.Find("Follow Point");
+
+        // Find Via Tag
+        //Target = GameObject.FindWithTag("Player");
+
+        // Find Via GM
+        //Target = gamemanager.instance.Target;
+
+        // Allow Paths in the background
+        MyNavMeshAgent.SetDestination(Target.transform.position);
+
+        // Force paths on spawn
+        //NavMeshPath path = new NavMeshPath();
+        //if (NavMesh.CalculatePath(transform.position, Target.transform.position, NavMesh.AllAreas, path))
+        //{
+        //    MyNavMeshAgent.SetPath(path);
+        //}
+
+
+        // Start coroutine to update destination point should it move.
         StartCoroutine(UpdateFollowPoint());
-        StartCoroutine(EnemyBounce());
     }
 
     // Update is called once per frame
     void Update()
     {
-        // See if the avatar has a target and their navmesh is enabled. If they do then move to that target
-        if (health < 15)
-        {
-            //Debug.Log("RUNN AWAY");
-            Target = RetreatePoint;
-        }
+
     }
 
 
@@ -39,18 +56,23 @@ public class AIQuickFollow : MonoBehaviour
         {
             if (Target && MyNavMeshAgent.enabled)
             {
-                //Debug.Log("SETTING DESTINATION POINT: " + Target.transform.position);
+                //Debug.LogError("SETTING DESTINATION POINT: " + Target.transform.position);
 
-                Debug.LogError("SETTING DESTINATION POINT: " + Target.transform.position);
-
-                    MyNavMeshAgent.SetDestination(Target.transform.position);
-
-                    
+                MyNavMeshAgent.SetDestination(Target.transform.position);
             }
-            //yield return null;
+            
+            ///////////////////////////
+            // updating target location Timer
+            ///////////////////////////
 
+            //Reset target location every frame
+            yield return null;
+
+            //Reset Target location every 1/8 of a second
             //yield return new WaitForSeconds(0.1250f);
-            yield return new WaitForSeconds(0.1250f + Random.Range(0, 0.125f)); ;
+            
+            //Reset target within a range of every 1/8 - 1/4 of a second
+            //yield return new WaitForSeconds(0.1250f + Random.Range(0, 0.125f)); ;
 
         }
     }

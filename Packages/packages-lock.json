@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.unity.ai.navigation": {
-      "version": "2.0.6",
+      "version": "2.0.9",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -113,11 +113,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.probuilder": {
-      "version": "6.0.4",
+      "version": "6.0.7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.shadergraph": "17.0.2",
+        "com.unity.shadergraph": "17.0.3",
         "com.unity.modules.imgui": "1.0.0",
         "com.unity.modules.physics": "1.0.0",
         "com.unity.settings-manager": "1.0.3"
@@ -204,7 +204,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.8.8",
+      "version": "1.8.9",
       "depth": 0,
       "source": "registry",
       "dependencies": {
