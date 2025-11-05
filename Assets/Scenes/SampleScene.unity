@@ -269,6 +269,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (35)
@@ -895,6 +903,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (32)
@@ -1348,6 +1364,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (18)
@@ -1537,6 +1561,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (38)
@@ -2066,6 +2098,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (39)
@@ -2331,6 +2371,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (16)
@@ -2769,6 +2817,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (37)
@@ -10048,6 +10104,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (22)
@@ -10430,6 +10494,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (3)
@@ -10578,6 +10650,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (17)
@@ -10767,6 +10847,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (29)
@@ -10829,6 +10917,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (20)
@@ -11018,6 +11114,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (6)
@@ -11273,6 +11377,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (11)
@@ -11411,6 +11523,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (23)
@@ -12647,6 +12767,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (34)
@@ -12709,6 +12837,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (19)
@@ -12776,6 +12912,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (1)
@@ -12942,7 +13086,7 @@ Transform:
   m_GameObject: {fileID: 786671812}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 122, y: 0.713, z: 3}
+  m_LocalPosition: {x: 108, y: 0.713, z: 26}
   m_LocalScale: {x: 120, y: 1, z: 120}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13231,6 +13375,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (27)
@@ -13481,6 +13633,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (14)
@@ -13563,6 +13723,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (21)
@@ -13813,6 +13981,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (33)
@@ -14068,6 +14244,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (26)
@@ -14267,6 +14451,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (5)
@@ -14481,6 +14673,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (30)
@@ -14736,6 +14936,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (24)
@@ -14869,6 +15077,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (40)
@@ -15868,7 +16084,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1297860208
 Transform:
   m_ObjectHideFlags: 0
@@ -17769,6 +17985,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (7)
@@ -18334,6 +18558,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (25)
@@ -18396,6 +18628,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (12)
@@ -18498,6 +18738,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (9)
@@ -18636,6 +18884,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (31)
@@ -19342,6 +19598,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (13)
@@ -19475,6 +19739,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (8)
@@ -19613,6 +19885,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (4)
@@ -20027,7 +20307,7 @@ Transform:
   m_GameObject: {fileID: 1920417947}
   serializedVersion: 2
   m_LocalRotation: {x: 0.3449163, y: 0.6172785, z: -0.3449163, w: 0.6172785}
-  m_LocalPosition: {x: -39.9, y: 78.6, z: -236.8}
+  m_LocalPosition: {x: -39.9, y: 78.6, z: 11.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20085,6 +20365,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (36)
@@ -20990,6 +21278,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (2)
@@ -21052,6 +21348,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (28)
@@ -21322,6 +21626,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (10)
@@ -21516,6 +21828,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost (15)
@@ -21639,6 +21959,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1297860208}
     m_Modifications:
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532270401207363639, guid: da630bd76d32d724fade19904251b3cc, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5659563983807646581, guid: da630bd76d32d724fade19904251b3cc, type: 3}
       propertyPath: m_Name
       value: LampPost

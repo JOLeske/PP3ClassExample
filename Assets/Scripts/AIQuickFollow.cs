@@ -29,7 +29,7 @@ public class AIQuickFollow : MonoBehaviour
 
         // Allow Paths in the background
         //MyNavMeshAgent.SetDestination(Target.transform.position);
-        //Debug.LogError("DEBUG LOG: SETTING DESTINATION POINT: " + Target.transform.position);
+        //Debug.Log("DEBUG LOG: SETTING DESTINATION POINT: " + Target.transform.position);
 
         // Force paths on spawn
         NavMeshPath path = new NavMeshPath();
