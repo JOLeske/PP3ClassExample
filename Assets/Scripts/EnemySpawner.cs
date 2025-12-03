@@ -29,4 +29,12 @@ public class EnemySpawner : MonoBehaviour
             }
         }
     }
+
+
+    // Update is called once per frame
+    void Update()
+    {
+        // Nothing for now, but we are 
+        // going to add in a spawn timer later
+    }
 }
