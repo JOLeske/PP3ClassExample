@@ -72,7 +72,7 @@ public class AIQuickFollow : MonoBehaviour
             //yield return new WaitForSeconds(0.1250f);
             
             //Reset target within a range of every 1/8 - 1/4 of a second
-            yield return new WaitForSeconds(0.1250f + Random.Range(0, 0.0125f)); ;
+            yield return new WaitForSeconds(0.01250f + Random.Range(0, 0.0125f)); ;
 
         }
     }
