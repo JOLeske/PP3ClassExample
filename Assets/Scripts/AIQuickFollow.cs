@@ -60,7 +60,7 @@ public class AIQuickFollow : MonoBehaviour
                 //for(int i = 0;i<100; i++)
                     MyNavMeshAgent.SetDestination(Target.transform.position);
             }
-            
+
             ///////////////////////////
             // updating target location Timer
             ///////////////////////////
@@ -70,7 +70,7 @@ public class AIQuickFollow : MonoBehaviour
 
             //Reset Target location every 1/8 of a second
             //yield return new WaitForSeconds(0.1250f);
-            
+
             //Reset target within a range of every 1/8 - 1/4 of a second
             yield return new WaitForSeconds(0.01250f + Random.Range(0, 0.0125f)); ;
 
