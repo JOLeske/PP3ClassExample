@@ -19,10 +19,10 @@ public class AIQuickFollow : MonoBehaviour
         //////////////
 
         // Find Via Name
-        Target = GameObject.Find("Follow Point");
+        //Target = GameObject.Find("Follow Point");
 
         // Find Via Tag
-        Target = GameObject.FindWithTag("Player");
+        //Target = GameObject.FindWithTag("Player");
 
         // Find Via GM
         Target = gamemanager.instance.Target;
