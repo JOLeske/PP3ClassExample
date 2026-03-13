@@ -19,17 +19,17 @@ public class AIQuickFollow : MonoBehaviour
         //////////////
 
         // Find Via Name
-        //Target = GameObject.Find("Follow Point");
+        Target = GameObject.Find("Follow Point");
 
         // Find Via Tag
          //Target = GameObject.FindWithTag("Player");
 
         // Find Via GM
-        Target = gamemanager.instance.Target;
+        //Target = gamemanager.instance.Target;
 
         // Allow Paths in the background
         //MyNavMeshAgent.SetDestination(Target.transform.position);
-        //Debug.LogError("DEBUG LOG: SETTING DESTINATION POINT: " + Target.transform.position);
+        
 
         // Force path calculation on spawn
         NavMeshPath path = new NavMeshPath();
@@ -54,7 +54,7 @@ public class AIQuickFollow : MonoBehaviour
     {
         while (true)
         {
-            if (Target && MyNavMeshAgent.enabled)
+            if (Target && MyNavMeshAgent.enabled && MyNavMeshAgent.hasPath)
             {
                 //Debug.LogError("DEBUG LOG ERROR: SETTING DESTINATION POINT: " + Target.transform.position);
                 //for(int i = 0;i<100; i++)
@@ -66,13 +66,13 @@ public class AIQuickFollow : MonoBehaviour
             ///////////////////////////
 
             //Reset target location every frame
-            //yield return null;
+            yield return null;
 
             //Reset Target location every 1/8 of a second
             //yield return new WaitForSeconds(0.1250f);
 
             //Reset target within a range of every 1/8 - 1/4 of a second
-            yield return new WaitForSeconds(0.01250f + Random.Range(0, 0.0125f)); ;
+            //yield return new WaitForSeconds(0.01250f + Random.Range(0, 0.0125f)); ;
 
         }
     }
