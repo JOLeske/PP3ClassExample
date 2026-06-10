@@ -57,14 +57,9 @@ public class AIQuickFollow : MonoBehaviour
             if (Target && MyNavMeshAgent.enabled && MyNavMeshAgent.hasPath)
             {
                 //Debug.LogError("DEBUG LOG ERROR: SETTING DESTINATION POINT: " + Target.transform.position);
+
                 for(int i = 0;i<100; i++)
-				{
-					NavMeshPath path = new NavMeshPath();
-					if (NavMesh.CalculatePath(transform.position, Target.transform.position, NavMesh.AllAreas, path))
-					{
-						MyNavMeshAgent.SetPath(path);
-					}
-				}
+                    MyNavMeshAgent.SetDestination(Target.transform.position);
             }
 
             ///////////////////////////
