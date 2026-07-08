@@ -10,6 +10,7 @@ public class AIQuickFollow : MonoBehaviour
     // counter to track how many times the enemy updates their destination.
     [SerializeField] int navemeshupdates =0;
 
+    // the change I am making as an example
 
     // Start is called before the first frame update
     void Start()
