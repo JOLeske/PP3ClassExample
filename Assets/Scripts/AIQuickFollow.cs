@@ -6,7 +6,8 @@ using UnityEngine.AI;
 public class AIQuickFollow : MonoBehaviour
 {
     [SerializeField] GameObject Target;
-    [SerializeField] NavMeshAgent MyNavMeshAgent;
+    [SerializeField] NavMeshAgent MyNavMeshAgent;    
+    // counter to track how many times the enemy updates their destination.
     [SerializeField] int navemeshupdates =0;
 
 
