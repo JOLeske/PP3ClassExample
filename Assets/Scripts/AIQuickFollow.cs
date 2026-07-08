@@ -6,8 +6,7 @@ using UnityEngine.AI;
 public class AIQuickFollow : MonoBehaviour
 {
     [SerializeField] GameObject Target;
-    [SerializeField] NavMeshAgent MyNavMeshAgent;    
-
+    [SerializeField] NavMeshAgent MyNavMeshAgent;
     [SerializeField] int navemeshupdates =0;
 
 
