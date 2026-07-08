@@ -32,11 +32,11 @@ public class AIQuickFollow : MonoBehaviour
         
 
         // Force path calculation on spawn
-        NavMeshPath path = new NavMeshPath();
-        if (NavMesh.CalculatePath(transform.position, Target.transform.position, NavMesh.AllAreas, path))
-        {
-            MyNavMeshAgent.SetPath(path);
-        }
+       NavMeshPath path = new NavMeshPath();
+       if (NavMesh.CalculatePath(transform.position, Target.transform.position, NavMesh.AllAreas, path))
+       {
+           MyNavMeshAgent.SetPath(path);
+       }
 
         
         // Start coroutine to update destination point should it move.
@@ -56,9 +56,9 @@ public class AIQuickFollow : MonoBehaviour
         {
             if (Target && MyNavMeshAgent.enabled && MyNavMeshAgent.hasPath)
             {
-                //Debug.LogError("DEBUG LOG ERROR: SETTING DESTINATION POINT: " + Target.transform.position);
+                Debug.LogError("DEBUG LOG ERROR: SETTING DESTINATION POINT: " + Target.transform.position);
 
-                for(int i = 0;i<100; i++)
+                //for(int i = 0;i<100; i++)
                     MyNavMeshAgent.SetDestination(Target.transform.position);
             }
 
