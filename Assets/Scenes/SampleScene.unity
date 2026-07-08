@@ -15487,7 +15487,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MovementDelay: 2
-  MovementRangeRadius: 20
+  MovementRangeRadius: 25
 --- !u!1001 &1225766183
 PrefabInstance:
   m_ObjectHideFlags: 0
