@@ -6,7 +6,9 @@ using UnityEngine.AI;
 public class AIQuickFollow : MonoBehaviour
 {
     [SerializeField] GameObject Target;
-    [SerializeField] NavMeshAgent MyNavMeshAgent;
+    [SerializeField] NavMeshAgent MyNavMeshAgent;    
+
+    [SerializeField] int navemeshupdates =0;
 
 
     // Start is called before the first frame update
@@ -61,6 +63,8 @@ public class AIQuickFollow : MonoBehaviour
                 for(int i = 0;i<100; i++)
                     MyNavMeshAgent.SetDestination(Target.transform.position);
             }
+
+            navemeshupdates++;
 
             ///////////////////////////
             // updating target location Timer
