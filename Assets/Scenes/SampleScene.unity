@@ -12938,7 +12938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a7d52069c5f34e4ab6097a2aa380b81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NumerOfEnemiesToSpawn: 300
+  NumerOfEnemiesToSpawn: 500
   SpawnRangeRadius: 60
   EnemyToSpawn: {fileID: 1761101959407211872, guid: cecc0f1edd5d6004190d04cc4582bfb6, type: 3}
 --- !u!4 &786671814
@@ -15468,7 +15468,7 @@ Transform:
   m_GameObject: {fileID: 1222599572}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.3, y: 12.9, z: -75.8}
+  m_LocalPosition: {x: -4.6, y: 10.96, z: -87.9}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
