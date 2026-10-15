@@ -31,15 +31,15 @@ public class AIQuickFollow : MonoBehaviour
         //Target = gamemanager.instance.Target;
 
         // Allow Paths in the background
-        //MyNavMeshAgent.SetDestination(Target.transform.position);
+        MyNavMeshAgent.SetDestination(Target.transform.position);
         
 
         // Force path calculation on spawn
-       NavMeshPath path = new NavMeshPath();
-       if (NavMesh.CalculatePath(transform.position, Target.transform.position, NavMesh.AllAreas, path))
-       {
-           MyNavMeshAgent.SetPath(path);
-       }
+       //NavMeshPath path = new NavMeshPath();
+      // if (NavMesh.CalculatePath(transform.position, Target.transform.position, NavMesh.AllAreas, path))
+       //{
+       //    MyNavMeshAgent.SetPath(path);
+       //}
 
         
         // Start coroutine to update destination point should it move.
@@ -49,7 +49,7 @@ public class AIQuickFollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        Debug.DrawLine(transform.position, Target.transform.position, Color.red);
     }
 
 
@@ -59,7 +59,7 @@ public class AIQuickFollow : MonoBehaviour
         {
             if (Target && MyNavMeshAgent.enabled && MyNavMeshAgent.hasPath)
             {
-                //Debug.LogError("DEBUG LOG ERROR: SETTING DESTINATION POINT: " + Target.transform.position);
+                Debug.LogError("DEBUG LOG ERROR: SETTING DESTINATION POINT: " + Target.transform.position);
 
                 //for(int i = 0;i<100; i++)
                     MyNavMeshAgent.SetDestination(Target.transform.position);
