@@ -25,14 +25,14 @@ public class AIQuickFollow : MonoBehaviour
         Target = GameObject.Find("Follow Point");
 
         // Find Via Tag
-         //Target = GameObject.FindWithTag("Player");
+        //Target = GameObject.FindWithTag("Player");
 
         // Find Via GM
         //Target = gamemanager.instance.Target;
 
         // Allow Paths in the background
         //MyNavMeshAgent.SetDestination(Target.transform.position);
-        
+        navemeshupdates = -1;
 
         // Force path calculation on spawn
        NavMeshPath path = new NavMeshPath();
