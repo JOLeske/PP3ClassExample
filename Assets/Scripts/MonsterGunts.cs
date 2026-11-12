@@ -17,12 +17,13 @@ public class MonsterGunts : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "Player")
+        //if(other.gameObject.tag == "Player")
             PlayGrunt();
     }
 
     void PlayGrunt()
     {
+      
         //MosterSFX.resource = Grunts[Random.Range(0, Grunts.Length)];
         MosterSFX.Play();
 
