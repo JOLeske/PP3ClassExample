@@ -6,14 +6,14 @@ using UnityEngine.Audio;
 public class MonsterGunts : MonoBehaviour
 {
 
-    [SerializeField]
-    AudioResource[] Grunts = new AudioResource[0];
+    //[SerializeField]
+    //AudioResource[] Grunts = new AudioResource[0];
 
     [SerializeField]
     AudioSource MosterSFX = null;
 
-    [SerializeField]
-    AudioClip _AudioClip = null;
+    //[SerializeField]
+    //AudioClip _AudioClip = null;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -23,7 +23,7 @@ public class MonsterGunts : MonoBehaviour
 
     void PlayGrunt()
     {
-        MosterSFX.resource = Grunts[Random.Range(0, Grunts.Length)];
+        //MosterSFX.resource = Grunts[Random.Range(0, Grunts.Length)];
         MosterSFX.Play();
 
         //MosterSFX.PlayOneShot(_AudioClip);
